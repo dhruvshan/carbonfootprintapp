@@ -11,7 +11,7 @@ import '../../shared/extensions.dart';
 
 Future<List<News>> fetchNews() async {
   final response = await http.get(Uri.parse(
-      'https://newsapi.org/v2/everything?q=CO2&apiKey=24c5e88f1fba4dba9deb45b8ec3f3d3a'));
+      'https://newsapi.org/v2/everything?q=CO2&apiKey=##Enter_API_Key##'));
 
   if (response.statusCode == 200) {
     List jsonResponse = jsonDecode(response.body)['articles'];

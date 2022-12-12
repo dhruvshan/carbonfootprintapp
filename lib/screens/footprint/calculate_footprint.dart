@@ -1036,7 +1036,7 @@ class _CarbonFootprintState extends State<CarbonFootprint> {
                                             final uri = Uri.parse(
                                                 'https://beta3.api.climatiq.io/estimate');
                                             final token =
-                                                '2M1KHS5E0V4CKDJXA3Y2K521AY05';
+                                                '##Enter your Climatiq API Key##';
                                             final headers = {
                                               HttpHeaders.contentTypeHeader:
                                                   'application/json',
