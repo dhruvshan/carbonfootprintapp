@@ -31,3 +31,4 @@ The carbon footprint from food consumed is calculated based on the users expendi
 
 Users are able to drag price sliders for each food type. The sum total of all the different Co2s is saved as foodCo2.
 
+<img width="481" alt="Screenshot 2022-12-30 181944" src="https://user-images.githubusercontent.com/66048526/210059779-7105c131-f956-4d81-8e7c-0e937efcf689.png">
