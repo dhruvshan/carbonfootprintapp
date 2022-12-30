@@ -19,3 +19,15 @@ The main function of the application is the carebon footprint calculation. Here 
 - Transport distance (type of transportation) in km
 - Recycling earnings (type of item recycled) in $
 - Energy consumption (electrical energy consumed per month) in kWh
+
+## Food Expenditure
+
+The carbon footprint from food consumed is calculated based on the users expenditure on specific types of food:
+- Seafood
+- Poultry
+- Beef/Red Meat
+- Vegetables
+- Pork
+
+Users are able to drag price sliders for each food type. The sum total of all the different Co2s is saved as foodCo2.
+
