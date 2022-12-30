@@ -1,6 +1,6 @@
 # Welcome to Endangered Humans
 
-This is my NTU EEE 2022 FYP - Personal Carbon Footprint Application
+This is my NTU EEE 2022 FYP - Personal Carbon Footprint Application. The main objective of this project was to develop an effective carbon footprint calculator app that also provides users with footprint tracking and intelligent recommendations.
 
 ## Application Stack
 
