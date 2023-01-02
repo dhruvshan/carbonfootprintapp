@@ -95,4 +95,39 @@ If the co2 of users is found to be greater, they would then be recommnended to "
 
 Since users could also input multiple types of food as seen in the Advanced mode, it is imperative that the system calculates the max food Co2 value (from all the types) and then compares accordingly.
 
+## Random Recommendations
+
+These recommendations are lines of text picked at random from a 'recommendations' collection present in Firebase. This collection is a list of curated requests, activities or initiatives that reduce a users carbon footprint.
+
+Some examples include:
+- "Fast fashion is a bad way to dress yourself. They are one of the most environmentally unfriendly companies in the world"
+- "Change all your lightbulbs to LED as the consume less than half the energy of a standard bulb"
+
+## Constant Recommendations
+
+These are recommendation(s) that are constantly shown to users, regardless of their footprint or goal. For this, they obviously need to have something of value. As such the decision was taken to have one constant recommendation that showcases the location of all the Cash for Stations in Singapore (using the Google Maps API)
+
+# Other Features
+
+## Pets
+
+Every user, once logged in has the opportunity to pick from between 3 endangered animals (Polar Bear, Penguin, Sealion/Seal) as their pet. The status of their pet is then directly correlated to their score. 
+For example, if a user scores higher (i.e. worse) than their reduced carbon footprint goal, the pet or rather the pets polar habitat will start sinking and vice versa. 
+
+After certain number of days/tries/attempts/calculations, if the user score continues to worsen, their pet will eventually get killed off. To interact with the application any further, users will then have to get a new pet. This action will increase a users "kill count", which is publicly known to everyone via the application's Rankings page.
+
+## Rankings
+
+To provide an implicit recommendation for users to continue to improve, I created a Rankings page. This ranks the users both based on their Footprint (lower the better) and their kill count (also lower the better). This page is available for all users.
+
+## News
+
+To improve the interactivity with the application, the News page, powered by the News API, showcases a list of news articles (related to Global Warming) from top websites in a list format on the application. The key values used from the API response include:
+- image url
+- title
+- description
+
+All article tabs are also interactive, allowing the user to click on a specific article to read it further.
+
+
 
