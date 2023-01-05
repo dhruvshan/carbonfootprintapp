@@ -120,6 +120,10 @@ After certain number of days/tries/attempts/calculations, if the user score cont
 
 To provide an implicit recommendation for users to continue to improve, I created a Rankings page. This ranks the users both based on their Footprint (lower the better) and their kill count (also lower the better). This page is available for all users.
 
+## Tracking 
+
+To showcase user score over time, I built a graph like tracking page. This showcases the user cabon footprint score versus their daily goal. Additionally, every days score breakdown is shown below the graph page. This allows users to see their score history on a day to day basis so that in the future they can look back and understand why their score was high or low on a given day.
+
 ## News
 
 To improve the interactivity with the application, the News page, powered by the News API, showcases a list of news articles (related to Global Warming) from top websites in a list format on the application. The key values used from the API response include:
